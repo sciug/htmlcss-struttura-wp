@@ -11,7 +11,7 @@
 }
 
 body{
-    width:60%;
+    width:50%;
     margin:auto;
     background-color: white;
 }
@@ -19,7 +19,56 @@ body{
 
 
 #site-header{
-    height: 100px;
+    height: 150px;
     background-color: #ffd978;
 
+}
+
+
+
+.sidebar, .center{
+    float: left;
+}
+
+.center{
+    background-color: #4077dd;
+    width:56%;
+    margin:0 2%;
+    
+}
+
+.sidebar{
+    background-color:#d8e819;
+    width:20%;}
+
+
+
+
+
+
+/* DEBUG */
+
+
+.debug .hero{
+    background-color: #a061b6;
+    height:300px;
+}
+
+.debug .title{
+    background-color: #b0ccbf;
+    height: 100px;
+
+}
+
+.debug .sidebar, .debug .center{
+    height: 400px;
+}
+
+/* DEBUG */
+
+
+
+#site-footer{
+    height: 100px;
+    background-color: #d96b6b;
 }
