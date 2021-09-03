@@ -9,3 +9,17 @@
     display: table;
     clear: both;
 }
+
+body{
+    width:60%;
+    margin:auto;
+    background-color: white;
+}
+
+
+
+#site-header{
+    height: 100px;
+    background-color: #ffd978;
+
+}
